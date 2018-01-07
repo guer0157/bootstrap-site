@@ -62,15 +62,23 @@ footer{
 .social{
     margin-left: 2rem;
     }
-#facebook{
+#facebook, #tumblr{
     background-color: white;
+}
+#instagram{
+    background-color: #CC21A8;
+}
+#pinterest{
+    background-color: #D60A00;
 }
 
 #instagram:hover, #tumblr:hover, #pinterest:hover, #facebook:hover{
     background-color: #42C2D6; 
     
 }
-
+.contact_us{
+    margin-left: 2rem;
+}
 @keyframes animate{
     0%
     {
