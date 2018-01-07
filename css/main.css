@@ -33,13 +33,13 @@ p{
     width: 10rem;
 }
 .jumbotron-fluid{
-    background-image: url(../IMG/atl.png);
+    background-image: url(../img/atl.png);
     background-position: right 0px top 0px;
     background-repeat: no-repeat;
     background-color: white;
 }
 #bottom{
-    background-image: url(../IMG/wavess.png);
+    background-image: url(../img/wavess.png);
     background-repeat: repeat-x;
     animation: animate 15s linear infinite;
     background-color: white;
