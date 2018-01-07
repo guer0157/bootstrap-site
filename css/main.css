@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Source+Sans+Pro');
+/*
+*******
+colors
+*******
+blue: #0D52CC
+red: #D60A00
+green: #BFB829
+light blue: #42C2D6
+magenta: #CC21A8
+******
+Fonts
+******
+"Alegreya","Gerogia","Palatino Linotype", serif;
+"Source San Pro", "Geneva", "Tahoma", sans-serif;
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .display-3, h2{
+    font-family: "Alegreya","Gerogia","Palatino Linotype", serif;
+    color: #BFB829;  
+}
+p{
+    font-family: "Source San Pro", "Geneva", "Tahoma", sans-serif;
+}
+.navbar{
+    border-bottom: .25rem solid #D60A00;
+}
+#logo-image{
+    width: 10rem;
+}
+.jumbotron-fluid{
+    background-image: url(../IMG/atl.png);
+    background-position: right 0px top 0px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+#bottom{
+    background-image: url(../IMG/wavess.png);
+    background-repeat: repeat-x;
+    animation: animate 15s linear infinite;
+    background-color: white;
+}
+footer{
+    border-top: .5rem solid #D60A00;
+    height: 12rem;
+    background-color: #BFB829;
+}
+.col-12{
+    padding-bottom: 3rem;
+}
+.button{
+    margin-top: 1rem;
+}
+
+#logo{
+    width: 10rem;  
+}
+.social{
+    margin-left: 2rem;
+    }
+#facebook{
+    background-color: white;
+}
+
+#instagram:hover, #tumblr:hover, #pinterest:hover, #facebook:hover{
+    background-color: #42C2D6; 
+    
+}
+
+@keyframes animate{
+    0%
+    {
+       background-position:left 0px top 350px; 
+    }
+     40%
+    {
+       background-position: left 800px top 130px; 
+    }
+     80%
+    {
+       background-position: left 1800px top 100px; 
+    }
+     100%
+    {
+       background-position: left 2400px top 130px; 
+    }
+}
+
+@media screen and (min-width: 770px){
+
+    
+@keyframes animate{
+    0%
+    {
+       background-position:left 0px top 100px; 
+    }
+     40%
+    {
+       background-position: left 800px top -50px; 
+    }
+     80%
+    {
+       background-position: left 1800px top -50px; 
+    }
+     100%
+    {
+       background-position: left 2400px top 80px; 
+    }
+    }
+}
