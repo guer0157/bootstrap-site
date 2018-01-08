@@ -25,7 +25,10 @@ body{
     background-repeat: no-repeat;
     background-color: white;
 }
- .display-3, h2, legend{
+#no-body{
+    background: none;
+}
+.display-3, h2, legend{
     font-family: "Alegreya","Gerogia","Palatino Linotype", serif;
     color: #BFB829;  
 }
