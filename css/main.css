@@ -42,7 +42,7 @@ p{
 }
 .jumbotron-fluid{
     background-image: url(../img/atl.png);
-    background-position: right 0px top 0px;
+    background-position: right -250px bottom 0px;
     background-repeat: no-repeat;
     background-color: white;
 }
@@ -121,6 +121,12 @@ footer{
 }
 
 @media screen and (min-width: 770px){
+    .jumbotron-fluid{
+    background-image: url(../img/atl.png);
+    background-position: right 0px top 0px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
 
     
 @keyframes animate{
@@ -141,4 +147,28 @@ footer{
        background-position: left 2400px top 80px; 
     }
     }
+}
+@media screen and (min-width: 771px){
+    .jumbotron-fluid{
+    background-image: url(../img/atl.png);
+    background-position: right -175px bottom 0px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+}
+@media screen and (min-width: 1290px){
+    .jumbotron-fluid{
+    background-image: url(../img/atl.png);
+    background-position: right -170px bottom 0px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+}
+@media screen and (min-width: 1640px){
+    .jumbotron-fluid{
+    background-image: url(../img/atl.png);
+    background-position: right 0px bottom 0px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
 }
