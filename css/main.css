@@ -19,6 +19,12 @@ Fonts
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(../img/atl.png);
+    background-position: right 0px bottom 190px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
  .display-3, h2, legend{
     font-family: "Alegreya","Gerogia","Palatino Linotype", serif;
     color: #BFB829;  
