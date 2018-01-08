@@ -3,7 +3,7 @@
 *******
 colors
 *******
-blue: #0D52CC
+blue: 13, 82, 204
 red: #D60A00
 green: #BFB829
 light blue: #42C2D6
@@ -19,7 +19,7 @@ Fonts
     padding: 0;
     box-sizing: border-box;
 }
- .display-3, h2{
+ .display-3, h2, legend{
     font-family: "Alegreya","Gerogia","Palatino Linotype", serif;
     color: #BFB829;  
 }
@@ -28,6 +28,14 @@ p{
 }
 .navbar{
     border-bottom: .25rem solid #D60A00;
+    background-color: rgba(13, 82, 204, 1); 
+}
+.nav-link{
+    font-size: 1.5rem;
+    color:white;
+}
+.navbar-toggler, .navbar-toggler-icon{
+    background-color: white;
 }
 #logo-image{
     width: 10rem;
@@ -55,13 +63,20 @@ footer{
 .button{
     margin-top: 1rem;
 }
-
+#section{
+    background-color: rgba(204, 33, 168, 0.2);
+    border-left: .2rem solid rgba(13, 82, 204, 1);
+    border-right: .2rem solid rgba(13, 82, 204, 1);
+}
 #logo{
     width: 10rem;  
 }
 .social{
     margin-left: 2rem;
     }
+#facebook{
+    margin-left: 4rem;
+}
 #facebook, #tumblr{
     background-color: white;
 }
@@ -78,6 +93,13 @@ footer{
 }
 .contact_us{
     margin-left: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+    text-shadow: 1rem, 2rem, 5rem;
+}
+.card{
+    border: .2rem solid rgba(13, 82, 204, 1);
+    margin-bottom: 1rem;
 }
 @keyframes animate{
     0%
